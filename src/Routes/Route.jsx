@@ -4,6 +4,7 @@ import {
 import Home from "../pages/Home/Home/Home";
 import Root from "../components/Root/Root";
 import Error from "../pages/Error/Error";
+import AllClasses from "../pages/AllClasses/AllClasses";
 
 
  export const router = createBrowserRouter([
@@ -15,7 +16,27 @@ import Error from "../pages/Error/Error";
         {
           path: '/',
           element:<Home></Home>
+        },
+        {
+          path: '/allClasses',
+          element: <AllClasses></AllClasses>
         }
+        // {
+        //   path: ,
+        //   element: 
+        // }
+        // {
+        //   path: ,
+        //   element: 
+        // }
+        // {
+        //   path: ,
+        //   element: 
+        // }
+        // {
+        //   path: ,
+        //   element: 
+        // }
       ]
     },
   ]);
