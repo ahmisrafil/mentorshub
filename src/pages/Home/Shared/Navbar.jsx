@@ -5,7 +5,7 @@ const Navbar = () => {
 
 
     const navLinks = <>
-        <li className="lg:text-gray-700 lg:text-base lg:font-sans  lg:mx-2">
+        <li className="lg:text-gray-700 lg:text-base lg:font-sans  lg:mx-2 ">
             <NavLink to='/'>Home</NavLink>
         </li>
         <li className="lg:text-gray-700 lg:text-base lg:font-sans  lg:mx-2">
