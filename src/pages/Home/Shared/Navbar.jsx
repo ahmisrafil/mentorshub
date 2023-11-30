@@ -9,19 +9,19 @@ const Navbar = () => {
             <NavLink to='/'>Home</NavLink>
         </li>
         <li className="lg:text-gray-700 lg:text-base lg:font-sans  lg:mx-2">
-            <NavLink to='/'>All Classes</NavLink>
+            <NavLink to='/allClasses'>All Classes</NavLink>
         </li>
 
         <li className="lg:text-gray-700 lg:text-base lg:font-sans  lg:mx-2">
             <NavLink to='/'>Teach On MentorsHub</NavLink>
         </li>
 
-        
+
         {
             // !user &&
             <li className="lg:text-gray-700 lg:text-base lg:font-sans  lg:mx-2">
-            <NavLink to='/'>Login</NavLink>
-        </li>
+                <NavLink to='/'>Login</NavLink>
+            </li>
         }
     </>
     return (
@@ -35,10 +35,12 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <div className="flex gap-0 items-center">
-                    <img className="h-10 p-0" src={logo} alt="logo" />
-                    <h3 className="text-[#9c1313] font-bold text-4xl ">Mentors<span className="text-white">Hub</span></h3>
-                </div>
+                <NavLink to="/">
+                    <div className="flex gap-0 items-center">
+                        <img className="h-10 p-0" src={logo} alt="logo" />
+                        <h3 className="text-[#9c1313] font-bold text-4xl ">Mentors<span className="text-white">Hub</span></h3>
+                    </div>
+                </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal  px-1">
@@ -46,7 +48,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            
+
         </div>
     );
 };

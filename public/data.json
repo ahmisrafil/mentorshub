@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Introduction to Programming",
+        "name": "Alice Johnson",
+        "details": "Learn the basics of programming with this introductory course.",
+        "price": 199.99,
+        "image": "https://i.ibb.co/VWqWs3q/prog.png",
+        "id": 1,
+        "enrollment": 120 
+    },
+    {
+        "title": "Web Development Fundamentals",
+        "name": "Bob Smith",
+        "details": "Get started with web development and build your first websites.",
+        "price": 249.99,
+        "image": "https://i.ibb.co/6gVkVB7/webf.png",
+        "id": 2,
+        "enrollment": 90 
+    },
+    {
+        "title": "Data Science Essentials",
+        "name": "Eva Davis",
+        "details": "Explore data analysis and machine learning in this foundational course.",
+        "price": 299.99,
+        "image": "https://i.ibb.co/1QRZtjV/data.jpg",
+        "id": 3,
+        "enrollment": 75 
+    },
+    {
+        "title": "Graphic Design Basics",
+        "name": "Charlie Brown",
+        "details": "Learn the fundamentals of graphic design and create stunning visuals.",
+        "price": 199.99,
+        "image": "https://i.ibb.co/93r9TjH/gaph.jpg",
+        "id": 4,
+        "enrollment": 110 
+    },
+    {
+        "title": "Digital Marketing Strategies",
+        "name": "Olivia Taylor",
+        "details": "Master digital marketing techniques to grow your online presence.",
+        "price": 249.99,
+        "image": "https://i.ibb.co/wMzNFzD/dig.jpg",
+        "id": 5,
+        "enrollment": 80 
+    },
+    {
+        "title": "Business Finance Principles",
+        "name": "Daniel Miller",
+        "details": "Understand the financial aspects of running a successful business.",
+        "price": 199.99,
+        "image": "https://i.ibb.co/sgxmRHR/buis.jpg",
+        "id": 6,
+        "enrollment": 95 
+    },
+    {
+        "title": "Mobile App Development",
+        "name": "Sophia Martinez",
+        "details": "Create mobile apps for iOS and Android platforms.",
+        "price": 299.99,
+        "image": "https://i.ibb.co/Czqzbyf/app.jpg",
+        "id": 7,
+        "enrollment": 65 
+    },
+    {
+        "title": "Artificial Intelligence Fundamentals",
+        "name": "Liam Wilson",
+        "details": "Dive into the world of AI and machine learning.",
+        "price": 349.99,
+        "image": "https://i.ibb.co/021fgG6/arti.jpg",
+        "id": 8,
+        "enrollment": 55 
+    },
+    {
+        "title": "Creative Writing Workshop",
+        "name": "Ava Thompson",
+        "details": "Unleash your creativity with this hands-on writing course.",
+        "price": 199.99,
+        "image": "https://i.ibb.co/yY4F3tg/cont.png",
+        "id": 9,
+        "enrollment": 85 
+    }
+]
