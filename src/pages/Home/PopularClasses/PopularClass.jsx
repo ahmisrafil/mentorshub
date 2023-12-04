@@ -34,8 +34,6 @@ const PopularClass = () => {
             }
             </SwiperSlide>
             <SwiperSlide><img src={sortedClasses[1]?.image} /></SwiperSlide>
-            
-            
             </Swiper>
         
     );
